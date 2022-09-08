@@ -18,20 +18,20 @@ export const config = {
    * [
    *  {
    *    // 想要发送的人的名字
-   *    name: "平平小仙女的人间使者",
+   *    name: "养猪大户",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "oloJU6Cm5-4CqhYey4aaPz1gjrUU",
    *    // 你想对他发送的模板消息的模板ID
    *    useTemplateId: "lyMWSrgZ8YPqeFGJYaB7zFbuvOarXTCouOkWZkV_CoY",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
+   *    openUrl: "https://e.xiaohongshu.com/home?sourceId=7&gt_ki=449807635834&gt_ui=39609550&gt_pi=202508642&gt_uni=7115145289&gt_ci=63534770004&gt_mt=1&gt_dt=0&gt_of=nm&gt_cpi=0&gt_kw=%E5%B0%8F%E7%BA%A2%E4%B9%A6&utm_source=baidu_sem&utm_campaign=e_xiaohongshu&bd_vid=11587720581150155848"
    *   }, 
    * ]
    */
   USERS: [
     {
       // 想要发送的人的名字
-      name: "平平小仙女",
+      name: "放牛小贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oloJU6CWWL1ddjgp0tq3IOAlRuFA",
       // 你想对他发送的模板消息的模板ID
@@ -44,7 +44,7 @@ export const config = {
       openUrl: "https://s.weibo.com/top/summary/"
     }, 
     {
-      name: "平平小仙女的人间使者", 
+      name: "养猪大户", 
       id: "oWbBN5lbLJbD6E93xnUJWhZ98rjU",
       useTemplateId: "PnO-uiJH5uTzTqYBf-oPMhZCXnTRDwOzGuuMT2Y_MrM",
       province: "陕西",
@@ -80,9 +80,9 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "平平小仙女的人间使者",
+      name: "养猪大户",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "JXiyY1XkQKrjqcSKgMXYsxoF_UGOa22UthCAglSOSIg",
+      id: "oloJU6Cm5-4CqhYey4aaPz1gjrUU",
     }, 
   ],
     
@@ -106,7 +106,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "平平小仙女", "year": "1997", "date": "08-08"},
+    {"type": "生日", "name": "放牛小贝", "year": "1997", "date": "11-15"},
   ],
 
   /**
@@ -124,14 +124,8 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2021-10-31"},
-    // 结婚纪念日
-    // {"keyword": "marry_day", date: "2027-06-06"},
-    // 退伍日, 不用可以删掉
-    //{"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
+    {"keyword": "love_day", date: "2022-3-12"},
+    
   ],
 
   /** 插槽 */
@@ -142,7 +136,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "我是你最大的底气"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
