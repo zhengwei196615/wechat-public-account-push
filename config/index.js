@@ -20,9 +20,9 @@ export const config = {
    *    // 想要发送的人的名字
    *    name: "平平小仙女的人间使者",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "oWbBN5lbLJbD6E93xnUJWhZ98rjU",
+   *    id: "oloJU6Cm5-4CqhYey4aaPz1gjrUU",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "PnO-uiJH5uTzTqYBf-oPMhZCXnTRDwOzGuuMT2Y_MrM",
+   *    useTemplateId: "lyMWSrgZ8YPqeFGJYaB7zFbuvOarXTCouOkWZkV_CoY",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -33,9 +33,9 @@ export const config = {
       // 想要发送的人的名字
       name: "平平小仙女",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oWbBN5iabZl1v--MyeyWPXRU8yBw",
+      id: "oloJU6CWWL1ddjgp0tq3IOAlRuFA",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "PnO-uiJH5uTzTqYBf-oPMhZCXnTRDwOzGuuMT2Y_MrM",
+      useTemplateId: "lyMWSrgZ8YPqeFGJYaB7zFbuvOarXTCouOkWZkV_CoY",
       // 所在省份
       province: "陕西",
       // 所在城市
